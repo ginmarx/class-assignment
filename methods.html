@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post</title>
+
+	<link rel="stylesheet" type="text/css" href="css/poststyle.css">
+
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<script>
+		var beepOne = $("#beep-one")[0];
+$("#nav-one a")
+	.mouseenter(function() {
+		beepOne.play();
+	});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		  $("#btn1").click(function(){
+		    alert("Sorry" + $("#test").text());
+		  });
+		  $("#btn2").click(function(){
+		    alert("Sorry" + $("#test").html());
+		  });
+		});
+	</script>
+
+</head>
+<body>
+
+	<nav class="header">Post</nav>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul id="nav-one" class="nav">
+				<audio preload="auto" id="beep-one">
+						<source src="beep.mp3"></source>
+						<source src="beep.ogg"></source>
+						Your browser isn't invited for super fun audio time.
+				</audio>
+				<li><a href="index.html">Home</a></li>
+				<li><a id="btn1" href="playlist.html">Playlist</a></li>
+				<li><a id="btn2" href="">Gaming</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="feedback-form-in-html/formpage.html">Feedback</a></li>
+			</ul>
+		</div>
+	</nav>	
+	
+	<p id="test" hidden="hidden">, this is a construction site! Come back another time.</p>
+
+	<br>
+
+	<div class="main-post">
+		<h1>METHODS OF COOKING</h1>
+		<small>Posted by emptypocketo</small>
+		
+		<p>
+			There are very many methods of cooking, most of which have been known since antiquity. These include baking, roasting, frying, grilling, barbecuing, smoking, boiling, steaming and braising. A more recent innovation is microwaving. Various methods use differing levels of heat and moisture and vary in cooking time. The method chosen greatly affects the end result because some foods are more appropriate to some methods than others. Some major hot cooking techniques include:
+			<br>
+			A cook sautees onions and green peppers in a skillet.<br>
+			Roasting<br>
+			Roasting – Barbecuing – Grilling/Broiling – Rotisserie – Searing<br>
+			Baking<br>
+			Baking – Baking Blind – Flashbaking<br>
+			Boiling<br>
+			Boiling – Blanching – Braising – Coddling – Double steaming – Infusion – Poaching – Pressure cooking – Simmering – Smothering – Steaming – Steeping – Stewing – Stone boiling – Vacuum flask cooking<br>
+			Frying<br>
+			Fry – Deep frying – Hot salt frying – Hot sand frying – Pan frying – Pressure frying – Sautéing – Stir frying
+			Steaming<br>
+			Steaming works by boiling water continuously, causing it to vaporise into steam; the steam then carries heat to the nearby food, thus cooking the food. By many it is considered a healthy form of cooking, holding nutrients within the vegetable or meat being cooked.<br>
+			En papillote – The food is put into a pouch and then baked, allowing its own moisture to steam the food.
+			Smoking<br>
+			Smoking is the process of flavoring, cooking, or preserving food by exposing it to smoke from burning or smoldering material, most often wood.<br>
+		</p>
+		<small>Source: <i>the internet</i></small>
+	</div>
+
+	<hr>
+	<br>
+	<div class="reblock">
+		<div class="block">
+			<h3>COOKING</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+				<br>
+				<a href="cooking.html">Click to read more...</a>
+			</p>
+		</div>
+
+		<div class="block">
+			<h3>HISTORY OF COOKING</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+				<br>
+				<a href="history.html">Click to read more...</a>
+			</p>
+		</div>
+
+		<div class="block">
+			<h3>Heading</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+				<br>
+				<a href="clicktoreadmore.html">Click to read more...</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="button">
+			<p class="t1">Contact me at:</p>
+			<a class="b1" href="mailto:han.doanquang@hcmut.edu.vn?subject=Title">Email</a><br> <!--1 điểm-->
+			<a class="b2" href="http://facebook.com/meovanden" rel="noopener noreferrer" target="_blank">Facebook</a><br>
+			<p class="t1">Join my group chat</p>
+			<a class="b3" href="https://discord.gg/Ufc6N8v">Discord</a> 	
+	</div>
+	
+	<div class="backbutt">
+		<a href="blog.html">Back to main Blog</a>
+	</div>
+
+	<div class="arrow-up"> <!--head to top button-->
+		<button onclick="topFunction()" id="arrow-up" ><img src="https://cdn0.iconfinder.com/data/icons/trends-1/256/icon-7.png" width="35px" height="auto"></button>
+	</div>
+
+
+
+
+
+	
+<hr>
+<br>
+	<footer id="main-footer"> 
+		<p>Copyright &copy 2018; emptypocketo</p>
+	</footer>
+</body>
+</html>
