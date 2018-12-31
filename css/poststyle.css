@@ -1,0 +1,131 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Consolas;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: coral;
+}
+a:hover{
+	color: black;
+}
+a:active{
+	color: white;
+}
+
+li a:hover {
+  background-color: red;
+}
+
+#main-footer{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+.header{
+	color: white;
+	font-size: 40px;
+	height: 50px;
+	padding: 20px;
+	margin: auto;
+	position: relative;
+	background-image: url('../image/header.png');
+	overflow: hidden;
+}
+
+.container{
+	width: 100%;
+	margin: none;
+	overflow: hidden;
+}
+
+#navbar{
+	width: 100%;
+	margin: auto;
+	background-color: #333;
+	color: #fff;
+	overflow: hidden;
+}
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+#navbar li{
+	display: inline;
+}
+#navbar a{
+	padding: 20px;
+	margin-top: none;
+	color: #fff;
+	text-decoration-line: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+.reblock{
+	border-style: dashed;
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.button{
+	width: 13%;
+	height: auto;
+	position: fixed;
+	top: 27%;
+	right: 0px;
+	padding: 20px;
+	border: double;
+	margin: 20px;
+}
+.button a{
+	line-height: 3em;
+	background-color: Coral;
+	color: white;
+	padding: 10px;
+	border: 2px black solid;
+}
+
+.backbutt{
+	background-color: coral;
+	padding:10px;
+	border: 2px black solid;
+	position: fixed;
+	margin: 20px;
+	top: 27%;
+}
+
+.backbutt a{
+	color: white;
+
+}
+
+#arrow-up{
+	position: fixed;
+	bottom: 40px;
+	right:5px;
+    border:none;
+    background:none;
+}
+
+#arrow-up:hover{
+	background-color: black;
+}
+
+.main-post{
+	text-align: left;
+	width: 60%;
+	margin: auto;
+}
+
+
